@@ -1,92 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horário de Atendimento</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: skyblue;
-            background-image: url(imagens/doutor5.webp);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: top;
-
-        }
-        header {
-            display: flex;
-            color: skyblue;
-            padding: 20px;
-        }
-        
-        nav {
-            display: flex;
-            align-items: left;
-        }
-        
-        nav img {
-            margin-right: 20px;
-        }
-        
-        nav ul {
-            list-style: none;
+         body {
             margin: 0;
             padding: 0;
+            background-image: url(imagens/doutora3.png);
+            background-repeat: no-repeat;
+            background-position: top;
+            opacity: 80;
+            color: royalblue
+            ;
         }
-        
-        nav li {
-            display: inline-block;
-            margin-right: 20px;
+        header {
+            float: left;
+            margin: 1;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 80%;
         }
-        
-        nav a {
-            text-decoration: none;
-            color: skyblue;
-            font-size: 18px;
+        nav{
+            width: 100%;
+            padding: 20px;
+            opacity: 80%;
         }
-        
+       
         main {
+            float: initial;
+           width: 100%;
+           max-width: 800px;
+           margin: 20px;
+           padding: 20px;
+        }
+        footer{
+            width: 100%;
+            max-width: 800px;
+            margin: 20px;
             padding: 20px;
         }
-        
-        footer {
-            color: skyblue;
-            text-align: center;
-            padding: 20px;
+        fieldset{
+            width: 100%;
+            margin: 1;
+            opacity: 80%;
         }
         table{
-            color: steelblue;
+            width: 100%;
+            opacity: 80%;
         }
+        thead {
+            color: darkblue;
+        }
+        tr{
+            text-align: center;
+            color: blue;
+        }
+
     </style>
 </head>
 <body>
-    <header>    
-        <nav>
-            <img src="imagens/clinicacartunizada.webp" width="150" height="150" alt="clinica">
-            <div>
-                <h1>Clínica Bruno Laudelino</h1>
-                <ul>
-                    <li><a href="Pagina Inicial.html">Página Inicial</a></li>
-                    <li><a href="Sobre.html">Sobre a Clínica</a></li>
-                    <li><a href="Horario.html">Horário de Atendimento</a></li>
-                    <li><a href="Contato.html">Contato-nos</a></li>
-                </ul>
-            </div>
-        </nav>
+    <header>
+        <img src="imagens/doutor2.webp" alt="doutor2" width="150" height="150">
     </header>
+    <nav>
+        <ul>
+            <li><a href="Pagina Inicial.html">Pagina Inicial</a></li>
+            <li><a href="Sobre.html">Sobre Nossa Clínica</a></li>
+            <li><a href="Horario.html">Horário de Atendimento</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
     <main>
-        <body>
-                <section>
-                    <h1>Nosso horario de Atendimento : </h1>
-                </section>
-                <table border="1" cellspacing="1" cellpadding="10" summary="Tabela de Atendimento" align="left" width="500">
+        <section>
+        <h1 align="center">Horário de Atendimento</h1>
+        <p>Atendemos com agendamento prévio e nossa equipe está preparada para oferecer o melhor atendimento a você e sua família. Se precisar de informações adicionais ou agendar uma consulta, entre em contato conosco pelos telefones indicados ou utilize o formulário de contato nesta página.</p>
+        </section>
+        <fieldset>
+            <legend>Especialidades</legend>
+        <section>
+            <table align="center" border="1">
+                <thead>
                     <tr>
                         <th>Serviços</th>
-                        <th>Segunda à Sexta</th>
-                        <th>Sábados</th>
-                        <th>Feriados</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados </th>
+                        <th>Domingo</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Clínica Geral</td>
                         <td>08hs - 19hs</td>
@@ -100,7 +102,7 @@
                         <td> - </td>
                     </tr>
                     <tr>
-                        <td>Pediatria </td>
+                        <td>Pediatria</td>
                         <td>08hs - 19hs</td>
                         <td>08hs - 14hs</td>
                         <td> - </td>
@@ -111,11 +113,22 @@
                         <td>08hs - 14hs</td>
                         <td> - </td>
                     </tr>
-                </table>
-        </body>
+                </tbody>
+            </table>
+        </section>
+    </fieldset>
     </main>
     <footer>
-        <p>&copy; 2023 Clínica Bruno Laudelino. Todos os direitos reservados.</p>
+        <h3><p>Entre em contato conosco</p>
+            <p>Estamos ansiosos para cuidar da sua saúde e bem-estar. Conte com a Clínica Médica para oferecer cuidados médicos de qualidade em todas as etapas da sua vida.</p>
+
+        </h3>
+        
+        <ul>
+            <li><img src="imagens/email.png" alt="telefone" width="15" height="15">  Email: clinicalaudelino@outlook.com</li>
+            <li><img src="imagens/telefone.png" alt="telefone" width="15" height="15">Telefone: (21) 96416-8393</li>
+            <li>&copy;Todos os diretos reservados a Clínica.</li>
+        </ul>
     </footer>
 </body>
 </html>
