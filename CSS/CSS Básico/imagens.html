@@ -55,12 +55,45 @@
         #bgradial{
             font-size: large;
             color: white;
-            background: radial-gradient(yellow, orange, red);            
+            background: radial-gradient(yellow, orange, red);
         }
         #bgorigin{
             background-image: url(imagens/barbieeken.jpg);
             background-origin: padding-box;
             background-size: cover;
+        }
+        #bgtop{
+            background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+);
+        }
+        #bgtop1{
+            background-image: url(imagens/mundobarbie.jpg);
+            background-size: cover;
+            font-size: 20px;
+            border: 15px dashed red;
+            background-blend-mode: saturation;
+        }
+        #bgfim{
+            width: 300px;
+            height: 300px;
+            border: 15px dashed palegoldenrod;
+            background-image: url(imagens/mundobarbie.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
         }
     </style>
 </head>
@@ -127,10 +160,21 @@
     <div id="bgradial">
         <p>Vamos textar o background-color  gradiente em forma de bola em nossa DIV</p>
     </div>
-    <p>Essa forma usei o oposto da primeira só pra dar enfase ao vermelho nas bordas</p>
     <code>Backgroung-Origin</code> 
     <div id="bgorigin">
         <p>Utilizei o padding-box que a origin vem a partir de dentro</p>    
+    </div>
+    <code>Backgroung de site externo</code> 
+    <div id="bgtop">
+        <p>Utilizei o efeito do projects trabalhando a configuração, estilo casa</p>    
+    </div>
+    <code>Backgroung Blend </code> 
+    <div id="bgtop1">
+        <p>Utilizei o efeito blend</p>    
+    </div>
+    <code>Backgroung FIM </code> 
+    <div id="bgfim">
+        <p>Background fim</p>    
     </div>
 </body>
 </html>
