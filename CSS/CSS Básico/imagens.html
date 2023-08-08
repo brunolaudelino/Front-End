@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de Uma Imagem </title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 5px solid blue;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        #contain{
+            object-fit: contain;
+        }
+        #cover{
+            object-fit: cover;
+        }
+        #none{
+            object-fit: none;
+        }
+        #scaledown{
+            object-fit: scale-down;
+        }
+        #position30px40px{
+            object-position: 30px 40px;
+        }
+        #position-100px40px{
+            object-position: -100px 40px;
+        }
+        #positionleft{
+            object-position: left;
+        }
+        #attachment{
+            background-image: url(imagens/barbieeken.jpg);
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        #bgcolor{
+            background-color: palevioletred;
+            border-radius: 50px;
+        }
+        #bgcolor1{
+            background-color: palevioletred;
+        }
+        #bggradiente{
+            font-size: large;
+            color: white;
+            background: linear-gradient(red, orange, yellow);
+        }
+        #bgradial{
+            font-size: large;
+            color: white;
+            background: radial-gradient(yellow, orange, red);            
+        }
+        #bgorigin{
+            background-image: url(imagens/barbieeken.jpg);
+            background-origin: padding-box;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedades de Uma Imagem </h1>
+
+    <code>Object-Fit: fill;</code> (Padrão)
+    <div>
+        <img src="imagens/barbieeken.jpg" alt="barbieeken">
+    </div>
+    <code>Object-Fit: contain;</code>
+    <div>
+        <img src="imagens/barbieeken.jpg" alt="barbieeken" id="contain">
+    </div>
+    <code>Object-Fit: cover;</code> 
+    <div>
+        <img src="imagens/barbieeken.jpg" alt="barbieeken" id="cover">
+    </div>
+     <code>Object-Fit: none;</code> 
+    <div>
+        <img src="imagens/barbieeken.jpg" alt="barbieeken" id="none">
+    </div>
+    <code>Object-Fit: scale-down;</code> 
+    <div>
+        <img src="imagens/barbieeken.jpg" alt="barbieeken" id="scale-down">
+    </div>
+
+    <h1>Propriedades Object Position </h1>
+    <code>Object-Position: 30px 40px</code> 
+    <div>
+        <img src="imagens/mundobarbie.jpg" alt="barbieeken" id="position30px40px">
+    </div>
+    <code>Object-Position: -100px 40px</code> 
+    <div>
+        <img src="imagens/mundobarbie.jpg" alt="barbieeken" id="position-100px40px">
+    </div>
+    <code>Object-Position: Left</code> 
+    <div>
+        <img src="imagens/mundobarbie.jpg" alt="barbieeken" id="positionleft">
+        
+    </div>
+    <p>Nessa propriedade não é notável muita diferença.</p>
+    <h1>Propriedades de Elementos [Extra!!!]</h1>
+    <code>Backgroung-Attachment</code> 
+    <div id="attachment">
+        <p>Imagem de Fundo rola junto com o conteudo. </p>
+    </div>
+    <p>Como vimos a imagem quando o valor é "scroll" rola com o conteudo.</p>
+    <code>Backgroung-Color</code> 
+    <div>
+        <img src="imagens/barbiedirigindo.webp" alt="barbieeken" id="bgcolor">
+    </div>
+    <p>Acrescentei uma borda rendondinha para brincar um pouco e identificar que com  a imagem não é possivel Identificar diferente de ↓.</p>
+    <code>Backgroung-Color</code> 
+    <div id="bgcolor1">
+        <p>Vamos textar o background-color na DIV</p>
+    </div>
+    <code>Background Gradiente</code> 
+    <div id="bggradiente">
+        <p>Vamos textar o background-color  gradiente Linear na DIV</p>
+    </div>
+    <p>Gosto desse efeito de fogo , é brega mais acho engraçado</p>
+    <code>Background Radial-Gradiente</code> 
+    <div id="bgradial">
+        <p>Vamos textar o background-color  gradiente em forma de bola em nossa DIV</p>
+    </div>
+    <p>Essa forma usei o oposto da primeira só pra dar enfase ao vermelho nas bordas</p>
+    <code>Backgroung-Origin</code> 
+    <div id="bgorigin">
+        <p>Utilizei o padding-box que a origin vem a partir de dentro</p>    
+    </div>
+</body>
+</html>
