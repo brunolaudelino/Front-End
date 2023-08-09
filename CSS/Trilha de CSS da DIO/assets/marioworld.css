@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Mario";
+    src: url(SuperMario256.ttf);
+}
+@font-face {
+    font-family: "Borel";
+    src: url(Borel-Regular.ttf);
+}
+#img01{
+    border-radius: 20px;
+}
+#amarelo{
+    color
+}
+#final{
+    background-image: url(../imagens/wallpaper.jpg);
+    opacity: 80%;
+    color: yellow;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner{
+    width: 100%;
+    align-self: center;
+    font-family: "Borel";
+    color: yellow;
+    background-image: url(../imagens/logomario.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 80%;
+}
+.logo1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.aventure{
+    opacity: 100%;
+    font-weight: bolder;
+}
+#mg{
+    color: white;
+    font-style: normal;
+    font-weight: bolder;
+}
+span{
+    font-family: "Mario";
+    color: red;
+}
+body{
+    font-family: "Borel";
+    box-shadow: 2px, 2px, 4px red;
+    background-color: rgb(187, 7, 7);
+    background-image: url(../imagens/mariored.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.gif{
+    background-image: url(../imagens/supermarioworld.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 50px;
+
+}
+footer{
+    color: blue;
+}
