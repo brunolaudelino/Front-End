@@ -1,0 +1,50 @@
+body{}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menuleft{
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.menucenter{
+    display: flex;
+    align-items: center;
+}
+.menucenter  input[type="search"]{
+    width: 348px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+}
+.menucenter button[type="submit"]{
+    border: 1px solid ;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.menurigth{
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+.menuvideo{
+    margin: 20px;
+    display: flex;
+    flex-direction: row ;
+}
+.sidebar{display: flex;
+    flex-direction: column;
+
+}
+.videosp{
+    width: 160px;
+    height: 90px;
+}
