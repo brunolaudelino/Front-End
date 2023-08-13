@@ -47,11 +47,8 @@
 
             Obrigado por fazer parte desta jornada comigo. Vamos aprender e crescer juntos na emocionante área da programação! 🚀</p>
     </aside>
-
 </main>
 <footer>
-
 </footer>
-    
 </body>
 </html>
