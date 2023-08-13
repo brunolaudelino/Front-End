@@ -15,7 +15,6 @@
             background-image: url(imagensfront/wallpapers/3D/1947434.jpg);
             background-size: cover;
         }
-        
     </style>
 </head>
 <header>
