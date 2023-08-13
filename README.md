@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,9 +27,8 @@
         </section>
         <aside>
             <h1>Como Contribuir:</h1>
-            <p>Sinta-se à vontade para explorar meus projetos, clonar este repositório e propor melhorias por meio de pull requests. Estou sempre aberto a feedback construtivo e novas ideias para expandir meus conhecimentos.
-    
-                Obrigado por fazer parte desta jornada comigo. Vamos aprender e crescer juntos na emocionante área da programação! 🚀</p>
+            <p>Sinta-se à vontade para explorar meus projetos, clonar este repositório e propor melhorias por meio de pull requests. Estou sempre aberto a feedback construtivo e novas ideias para expandir meus conhecimentos.</p>
+            <p>Obrigado por fazer parte desta jornada comigo. Vamos aprender e crescer juntos na emocionante área da programação! 🚀</p>
         </aside>
     </main>
     <footer>
