@@ -71,6 +71,8 @@ main{
     gap: 20px;
 }
 .image{
+    width: 50x;
+    height: 50px;
     border-radius: 80%;
 }
 div{
@@ -96,7 +98,7 @@ h3{
 
 }
 .descripitionvideo{
-    color: gray;
+    color: black;
     font-size: .5rem;
     align-content: space-around;
     margin-left: 10px;
