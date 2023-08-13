@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno Laudelino</title>
-    <style>
+<title>Bruno Laudelino</title>
+<style>
         header{
             color: white;
             opacity: 0.6;
@@ -18,7 +18,7 @@
         section{
         color: white;
         }
-    </style>
+</style>
 </head>
 <header>
     <h1>Minha Jornada como Iniciante na Programação</h1>
