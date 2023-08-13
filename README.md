@@ -6,7 +6,7 @@
     <title>Bruno Laudelino</title>
     <style>
         header{
-            color: red;
+            color: white;
             opacity: 0.6;
             background-size: cover;
             background-repeat: no-repeat;
@@ -14,6 +14,9 @@
         body{
             background-image: url(imagensfront/wallpapers/3D/1947434.jpg);
             background-size: cover;
+        }
+        section{
+        color: white;
         }
     </style>
 </head>
@@ -23,12 +26,12 @@
 </header>
 <body>
 <main>
+    <section>
     <h1>Sobre Mim ...</h1>
-    <div>
         <p>Sou um estudante universitário apaixonado por resolver problemas por meio da programação. Atualmente, estou cursando Sistemas de Informação na UVA - Universidade Veiga de Almeida e comcomitante fazendo cursos, projetos e Bootcamps na DIO - Digital Innovation One.<p>            
         <p> Minha paixão por codificação começou quando fui apresentado ao mundo da programação em C . Desde então, tenho me esforçado para aprender mais e expandir meu conhecimento em outras áreas.</p>
-    </div>
-    <div>
+    </section>
+    <section>
         <h1>Minhas Habilidades Atuais:</h1>
         <ul>
             <li><b>Linguagens:</b></li><p>Possuo um bom entendimento da linguagem C, onde iniciei minha jornada. Além disso, também explorei um pouco do C++, permitindo-me entender os princípios da programação orientada a objetos.</p>
@@ -38,8 +41,12 @@
             <li><b>Busca por Estágio em Desenvolvimento:</b><p>Estou ativamente buscando oportunidades de estágio para expandir minha compreensão prática das tecnologias e conceitos que venho estudando. Acredito que um ambiente de trabalho real será uma plataforma valiosa para aprimorar minhas habilidades e aprender com profissionais experientes.</p></li>
             <li><b>Aspirações de Cientista de Dados:</b><p>Olhando para o futuro, meu objetivo é me tornar um cientista de dados. Tenho fascínio pela análise de dados e pela extração de insights significativos para auxiliar em tomadas de decisões informadas. Pretendo continuar minha educação nesse campo emocionante.</p></li>
         </ul>
-    </div>
+    </section>
     <aside>
+        <h1>Como Contribuir:</h1>
+        <p>Sinta-se à vontade para explorar meus projetos, clonar este repositório e propor melhorias por meio de pull requests. Estou sempre aberto a feedback construtivo e novas ideias para expandir meus conhecimentos.
+
+            Obrigado por fazer parte desta jornada comigo. Vamos aprender e crescer juntos na emocionante área da programação! 🚀</p>
     </aside>
 
 </main>
