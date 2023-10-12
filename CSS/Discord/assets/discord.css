@@ -82,7 +82,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 20px;
+    padding: 5px;
+}
+.secao2 {
+    background-color: lightgrey;
 }
 .secaofinal {
     display: flex;
@@ -95,7 +98,7 @@ main {
     align-items: center;
     gap: 20px;
     flex-shrink: 0;
-    padding: 20px;
+    padding: 5px;
 
 }
 .final {
@@ -109,4 +112,116 @@ main {
     background-color: black;
 }
 @media (max-width: 600px) {
+    header {
+    width: 428px;
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-items: center;
+    padding: 0px 24px;
+    font-size: 20px;
+    }
+    .topo {
+        width: 428px;
+        padding: 0px 24px;
+        font-size: 32px;
+        line-height: normal;
+    }
+    .textotopo {
+        font-size: 15px;
+    }
+    .botao {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px;
+    }
+    .botao1 {
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        background-color: white;
+        border-radius: 28px;
+        flex-shrink: 0;
+        color: black;
+        text-align: center;
+        font-family: open sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    .botao2 {
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background-color: black;
+        color:white;
+        text-align: center;
+        font-family: open sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    .botao1, .botao2 {
+        margin-top: 10px;
+    }
+    main {
+        display: flex;
+        width: 428px;
+        flex-direction: column;
+    }
+    h2 {
+        width: 428px;
+        line-height: normal;
+        font-weight: 800;
+    }
+    p {
+        font-size: 16px;
+    }
+    .secao {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 428px;
+        justify-content: center;
+        align-items: center:
+    }
+    .image {
+        width: 380px;
+        height: 250px;
+    }
+    .secaofinal {
+        display: flex;
+        width: 428px;
+        flex-direction: column;
+        background-color: lightgray;
+        flex-wrap: wrap;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    
+    }
+    .imagefinal {
+        width: 162px;
+        height: 45px;
+    }
+    .final {
+        display: flex;
+        width: 460px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background-color: black;
+    }
+    
     }
