@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <header>
         <h1>Jornada na Área Front- End</h1>
-        <p><i>Bem-vindo ao meu repositório! Aqui vou compartilhar minha jornada de aprendizado em HTML, CSS e os pincipíos da responsividade na área de programação.</i></p>
+        <p><i>Bem-vindo ao meu repositório! Aqui vou compartilhar minha jornada de aprendizado em HTML, CSS, JavaScript e os pincipíos da responsividade na área de programação.</i></p>
         <p><i>Você encontrará uma coleção crescente de projetos, tutoriais e recursos que refletem meu progresso e aprendizado contínuo . Meu objetivo principal é criar um ambiente onde possamos aprender juntos, trocar idéias e explorar as nuances facinantes do desenvolvimento web. </i></p>
     </header>
     <body>
