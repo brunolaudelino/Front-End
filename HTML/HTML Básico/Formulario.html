@@ -1,24 +1,91 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Formulário HTML </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        .row {
+            margin: 5px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 15px;
+            border-radius: 10px;
+            border-color: red;
+        }
+    </style>
 </head>
 <body>
-    <form>
-        <label>Nome: </label><input type="text" placeholder="Digite o nome completo" /><br>
-        <label>Idade: </label><input type="number" min="0" max="150" step="5"  placeholder="Digite sua idade"/><br>
-        <label>Range: </label><input type="range" min="0" max="100" value="90" /><br>
-        <label>Color: </label><input type="color" /><br>
-        <label>E-mail: </label><input type="email" /><br>
-        <label>URL:</label><input type="url" /><br>
-        <label>Data: </label><input type="date" /><br>
-        <label>Semana: </label><input type="week" /><br>
-        <label>Mês: </label><input type="month" /><br>
-        <label>CheckBox: </label><input type="checkbox" /></label><input type="checkbox" /><br>
-        <label>Radio</label><input type="radio" name="Aceitar" /><input type="radio" name="Recusar" /><br>
-        <label>Botão: </label><input type="submit" value="Enviar" /><br>
-        <label>Hiddnen</label><input type="hidden" /><br>
-        <label> Arquivo: </label><input type="file" /><br>
-    </form>
+    <h1>Formulários de Cadastro</h1>
+    <fieldset>
+        <legend> Dados Pessoais </legend>
+        <div class="row">
+            <label for="nome">Nome:</label><input type="text" name="nome" id="nome">
+            <label for="idade">Idade:</label><input type="text" name="idade" id="idade"><br>
+            <label for="nascimento">Data de Nascimento:</label><input type="date" name="nascimento" id="nascimento"><br>
+            <label for="rg">RG:</label><input type="number" name="rg" id="rg"><br>
+            <label for="cpf">CPF:</label><input type="number" name="cpf" id="cpf">
+            <label for="email">E-mail:</label><input type="email" name="email" id="malito"><br>
+        </div>
+        <div class="row">
+            <label for="Profissão">Profisão:</label><input type="text" name="profissao" id="profissao">
+            <label for="Empresa">Empresa:</label><input type="text" name="empresa" id="empresa"><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <div>
+            <label for="endereço">Endereço:</label><input type="text" name="endereco" id="endereco">
+            <label for="numero">Número:</label><input type="number" name="numero" id="numero"><br>
+            <label for="complemento">Complemento:</label><input type="text" name="complemento">
+            <label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro"><br>
+            <label for="cidade">Cidade</label><input type="text" name="cidade" id="cidade">
+            <label for="uf">UF:</label>
+            <select name="Estado">
+                <option value="AC">AC - Acre</option>
+                <option value="AL">AL - Alagoas</option>
+                <option value="AP">AP - Amapá</option>
+                <option value="AM">AM - Amazonas</option>
+                <option value="BA">BA - Bahia</option>
+                <option value="CE">CE - Ceará</option>
+                <option value="DF">DF - Distrito Federal</option>
+                <option value="ES">ES - Espírito Santo</option>
+                <option value="GO">GO - Goiás</option>
+                <option value="MA">MA - Maranhão</option>
+                <option value="MT">MT - Mato Grosso</option>
+                <option value="MS">MS - Mato Grosso do Sul</option>
+                <option value="MG">MG - Minas Gerais</option>
+                <option value="PA">PA - Pará</option>
+                <option value="PB">PB - Paraíba</option>
+                <option value="PR">PR - Paraná</option>
+                <option value="PE">PE - Pernambuco</option>
+                <option value="PI">PI - Piauí</option>
+                <option value="RJ">RJ - Rio de Janeiro</option>
+                <option value="RN">RN - Rio Grande do Norte</option>
+                <option value="RS">RS - Rio Grande do Sul</option>
+                <option value="RO">RO - Rondônia</option>
+                <option value="RR">RR - Roraima</option>
+                <option value="SC">SC - Santa Catarina</option>
+                <option value="SP">SP - São Paulo</option>
+                <option value="SE">SE - Sergipe</option>
+                <option value="TO">TO - Tocantins</option>
+              </select><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Informações de Contato</legend>
+        <label for="celular">Celular:</label><input type="tel" name="telefone" id="telefone">
+        <label for="Whatsapp">Whatsapp:</label><input type="tel" name="Whatsapp" id="Whatsapp"><br>
+        <label for="Linkedin">Linkedin:</label><input type="url" name="linkedin" id="Linkedin">
+        <label for="Github">GITHUB:</label><input type="url" name="Github" id="Github"><br>
+    </fieldset>
+    <button type="reset">Limpar</button>
+    <button type="submit" value="Enviar">Enviar Formulário</button>
 </body>
 </html>
