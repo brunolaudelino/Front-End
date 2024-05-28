@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propriedades de Uma Imagem </title>
     <style>
+        .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+}
+
+/* Exemplos de object-fit */
+.fit-fill {
+    object-fit: fill;
+}
+
+.fit-contain {
+    object-fit: contain;
+}
+
+.fit-cover {
+    object-fit: cover;
+}
+
+.fit-none {
+    object-fit: none;
+}
+
+.fit-scale-down {
+    object-fit: scale-down;
+}
+
+/* Exemplos de object-position */
+.position-center {
+    object-fit: cover; /* Para mostrar melhor o efeito de object-position */
+    object-position: center;
+}
+
+.position-top-left {
+    object-fit: cover; /* Para mostrar melhor o efeito de object-position */
+    object-position: top left;
+}
         div {
             width: 200px;
             height: 200px;
@@ -176,6 +219,23 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
     <code>Backgroung FIM </code> 
     <div id="bgfim">
         <p>Background fim</p>    
+    </div>
+    <div class="container">
+        <h2>Container</h2><br> 
+        <p>Fit Fill</p>
+        <img src="imagens/mundobarbie.jpg" class="fit-fill" alt="Imagem com object-fit: fill">
+        <p>Fit Contain</p>
+        <img src="imagens/mundobarbie.jpg" class="fit-contain" alt="Imagem com object-fit: contain">
+        <p>Fit Cover</p>
+        <img src="imagens/mundobarbie.jpg" class="fit-cover" alt="Imagem com object-fit: cover">
+        <p>Fit None</p>
+        <img src="imagens/mundobarbie.jpg" class="fit-none" alt="Imagem com object-fit: none">
+        <p>Fite Scale Down</p>
+        <img src="imagens/mundobarbie.jpg" class="fit-scale-down" alt="Imagem com object-fit: scale-down">
+        <p>Fit Position Center</p>
+        <img src="imagens/mundobarbie.jpg" class="position-center" alt="Imagem com object-position: center">
+        <p>Fit Position Top Left</p>
+        <img src="imagens/mundobarbie.jpg" class="position-top-left" alt="Imagem com object-position: top left">
     </div>
 </body>
 </html>
