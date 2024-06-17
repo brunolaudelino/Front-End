@@ -1,8 +1,68 @@
-h1 { 
-    color:#33A8DB;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-}
-header {
-    background-image: url(/Trilha\ de\ CSS\ da\ DIO/imagens/banner.png);
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway' sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:     
+    linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(51,168,219,0.2) 50%, rgba(0,0,0,1) 100%),
+    url(/Trilha\ de\ CSS\ da\ DIO/imagens/banner.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner h1{
+    text-decoration: line-through line;
+    width: 434px;
+    height: 47px;
+    font: 'Raleway';
+    font-weight: 900;
+    size: 4rem;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem;
+    border: solid 1px #33A8DB;
+    line-height: 46px;
+}
+.banner p {
+    color: white;
+
+}
+.banner-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.logo img {
+    width: 248px;
+    height: 214px;
 }
