@@ -133,6 +133,8 @@ main h2 {
 #course-content > p {
     color: white;
     font-weight: 400;
+    text-align: center;
+    width: 80%;
     size: 16px;
     line-height: 18.78px;
     align-content: center;
@@ -185,6 +187,8 @@ main h2 {
 }
 #professional-challenges p {
     color: #FFFFFF;
+    width: 50%;
+    text-align: center;
     margin: 10px;
     size: 16px;
     margin-top: 24px;
